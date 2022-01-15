@@ -35,6 +35,7 @@ int main()
 
 	// accept incoming connections; this is a blocking call
 	client = accept(sock, (struct sockaddr *)&remote, &len);
+	printf("client id: %d\n", client);
 
 	ba2str(&remote.rc_bdaddr, pszremote);
 

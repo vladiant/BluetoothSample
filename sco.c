@@ -25,6 +25,7 @@ int main()
 		return -1;
 
 	client = accept(sock, (struct sockaddr*)&remote, &len);
+	printf("client id: %d\n", client);
 
 	ba2str(&remote.sco_bdaddr, pszremote);
 
