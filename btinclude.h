@@ -1,3 +1,4 @@
+#pragma once
 
 #include <bluetooth/bluetooth.h>
 #include <bluetooth/rfcomm.h>
